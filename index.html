@@ -23,14 +23,14 @@
       <div class="contact-wrapper">
         <div class="contact-form">
           <h3>Contact us</h3>
-          <form action="">
+          <form name="contact" method="POST" data-netlify="true">
             <p>
               <label for="fullname">Fullname</label>
-              <input type="text" name="fullname" id="fullname" />
+              <input type="text" name="fullname" id="fullname" placeholder="Write your Fullname"/>
             </p>
             <p>
-              <label for="">Email Address</label>
-              <input type="email" name="email" />
+              <label for="">Email</label>
+              <input type="email" name="email" placeholder="Write your Email"/>
             </p>
             <p>
               <label for="phone">Phone</label>
@@ -42,7 +42,7 @@
             </p>
             <p class="block">
               <label for="">Message</label>
-              <textarea name="" id=" rows="3"></textarea>
+              <textarea name="message" id=" rows="3"></textarea>
             </p>
             <p class="block">
               <button type="submit">
