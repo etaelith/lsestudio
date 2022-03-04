@@ -4,6 +4,7 @@
 
 body {
   background-image: url(./image/ajedrez.jpg);
+  background-repeat: no-repeat;
   color: #d7a6b7;
   font-family: "Hubballi", cursive;
   padding: 0 1.5em;
