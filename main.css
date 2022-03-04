@@ -8,7 +8,9 @@ body {
   font-family: "Hubballi", cursive;
   padding: 0 1.5em;
 }
-
+.hidden {
+  visibility: hidden;
+}
 .content {
   max-width: 1170px;
   margin-left: auto;

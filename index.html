@@ -31,7 +31,7 @@
           <form
             name="contact"
             method="POST"
-            data-netlify-recaptcha="true"
+            netlify-honeypot="campito-antibot"
             data-netlify="true"
           >
             <p>
@@ -59,7 +59,12 @@
               <label for="">Message</label>
               <textarea name="message" id="" rows="3"></textarea>
             </p>
-            <div class="block" data-netlify-recaptcha="true"></div>
+            <p class="hidden">
+              <label>
+                Que raro que veas esto bot oscar:
+                <input name="campito-antibot" />
+              </label>
+            </p>
             <p class="block">
               <button type="submit">Send</button>
             </p>
