@@ -21,10 +21,10 @@ body {
 .logo {
   text-align: center;
   font-size: 3em;
+  color: #0f0209;
 }
-
-.logo span {
-  color: firebrick;
+h3 {
+  text-align: center;
 }
 
 .contact-wrapper {
@@ -72,8 +72,8 @@ body {
 }
 
 .contact-form form button {
-  background: #551135;
-  color: #000;
+  background: #13040c;
+  color: #fff;
   border: 1px solid #0f0209;
   text-transform: uppercase;
   padding: 1em;

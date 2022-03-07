@@ -24,10 +24,10 @@
   </head>
   <body>
     <div class="content">
-      <h1 class="logo">Contact <span>Us</span></h1>
+      <h1 class="logo">Contáctanos</h1>
       <div class="contact-wrapper">
         <div class="contact-form">
-          <h3>Contact us</h3>
+          <h3>Formulario de contacto</h3>
           <form
             name="contact"
             method="POST"
@@ -35,28 +35,33 @@
             data-netlify="true"
           >
             <p>
-              <label for="fullname">Fullname</label>
+              <label for="fullname">Nombre</label>
               <input
                 type="text"
                 name="fullname"
                 id="fullname"
-                placeholder="Write your Fullname"
+                placeholder="Juan Ruiz"
               />
             </p>
             <p>
               <label for="">Email</label>
-              <input type="email" name="email" placeholder="Write your Email" />
+              <input type="email" name="email" placeholder="@email.com" />
             </p>
             <p>
-              <label for="phone">Phone</label>
-              <input type="tel" id="phone" name="phone" />
+              <label for="phone">Telefono</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="(221)1543"
+              />
             </p>
             <p>
-              <label>Affair</label>
-              <input type="text" name="affair" />
+              <label>Asunto</label>
+              <input type="text" name="Asunto" />
             </p>
             <p class="block">
-              <label for="">Message</label>
+              <label for="">Descripcion</label>
               <textarea name="message" id="" rows="3"></textarea>
             </p>
             <p class="hidden">
@@ -65,8 +70,8 @@
                 <input name="campito-antibot" />
               </label>
             </p>
-            <p class="block">
-              <button type="submit">Send</button>
+            <p>
+              <button type="submit">Enviar</button>
             </p>
           </form>
         </div>
